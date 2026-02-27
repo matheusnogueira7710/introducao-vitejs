@@ -3,7 +3,7 @@ function App () {
     <div>
     <h1> Aula de react com Vite JS </h1>
     <h2>xxx</h2>
-    <h2>xx</h2>
+    <h3>xx</h3>
     <p>x</p>
     </div>
   );
