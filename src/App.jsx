@@ -1,11 +1,16 @@
-function App () {
+
+import { Routes, Route } from 'react-router-dom'
+
+import Home from './pages/home'
+import Sobre from './pages/sobre'
+
+function App() {
   return (
-    <div>
-    <h1> Aula de react com Vite JS </h1>
-    <h2>xxx</h2>
-    <h3>xx</h3>
-    <p>x</p>
-    </div>
-  );
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/sobre" element={<Sobre />} />
+    </Routes>
+  )
 }
+
 export default App;
