@@ -17,6 +17,7 @@
           <div className={styles.containerCards}>    
             <h2>Atividades</h2>
             <Link to="/atividades/1">atividade01 - Uso de module CSS</Link>     
+            <Link to="/atividades/2">atividade02 - Uso de module CSS</Link>     
           </div>
       </div>
     )
